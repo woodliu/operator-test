@@ -1,4 +1,4 @@
-module example.com/m
+module github.com/woodliu
 
 go 1.13
 
