@@ -1,4 +1,4 @@
-module github.com/woodliu
+module github.com/woodliu/operator-test/kubebuilder-test
 
 go 1.13
 

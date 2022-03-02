@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	"cloud.google.com/go/pubsub"
-	v2 "example.com/m/api/v2"
+	v2 "github.com/woodliu/operator-test/kubebuilder-test/api/v2"
 	"github.com/go-logr/logr"
 
 	ctrl "sigs.k8s.io/controller-runtime"

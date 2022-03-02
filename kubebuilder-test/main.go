@@ -26,10 +26,10 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	identityv1 "example.com/m/api/v1"
-	identityv2 "example.com/m/api/v2"
-	identityv3 "example.com/m/api/v3"
-	"example.com/m/controllers"
+	identityv1 "github.com/woodliu/operator-test/kubebuilder-test/api/v1"
+	identityv2 "github.com/woodliu/operator-test/kubebuilder-test/api/v2"
+	identityv3 "github.com/woodliu/operator-test/kubebuilder-test/api/v3"
+	"github.com/woodliu/operator-test/kubebuilder-test/controllers"
 	// +kubebuilder:scaffold:imports
 )
 

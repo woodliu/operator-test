@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/pubsub"
-	identityv2 "example.com/m/api/v2"
-	"example.com/m/health"
+	identityv2 "github.com/woodliu/operator-test/kubebuilder-test/api/v2"
+	"github.com/woodliu/operator-test/kubebuilder-test/health"
 	"github.com/go-logr/logr"
 	"github.com/imdario/mergo"
 	"github.com/operator-framework/operator-lib/status"
@@ -44,7 +44,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	identityv3 "example.com/m/api/v3"
+	identityv3 "github.com/woodliu/operator-test/kubebuilder-test/api/v3"
 )
 
 // UserIdentityV3Reconciler reconciles a UserIdentityV3 object

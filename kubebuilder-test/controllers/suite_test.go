@@ -30,9 +30,9 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	identityv1 "example.com/m/api/v1"
-	identityv2 "example.com/m/api/v2"
-	identityv3 "example.com/m/api/v3"
+	identityv1 "github.com/woodliu/operator-test/kubebuilder-test/api/v1"
+	identityv2 "github.com/woodliu/operator-test/kubebuilder-test/api/v2"
+	identityv3 "github.com/woodliu/operator-test/kubebuilder-test/api/v3"
 	// +kubebuilder:scaffold:imports
 )
 

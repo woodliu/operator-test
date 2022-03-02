@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	identityv1 "example.com/m/api/v1"
+	identityv1 "github.com/woodliu/operator-test/kubebuilder-test/api/v1"
 	"github.com/go-logr/logr"
 	corev1 "k8s.io/api/core/v1"
 	rbacv1 "k8s.io/api/rbac/v1"

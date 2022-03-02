@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/pubsub"
-	identityv2 "example.com/m/api/v2"
-	"example.com/m/health"
+	identityv2 "github.com/woodliu/operator-test/kubebuilder-test/api/v2"
+	"github.com/woodliu/operator-test/kubebuilder-test/health"
 	"github.com/go-logr/logr"
 	"github.com/operator-framework/operator-lib/status"
 	corev1 "k8s.io/api/core/v1"
